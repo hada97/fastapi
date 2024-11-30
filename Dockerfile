@@ -1,5 +1,5 @@
 # Use a imagem oficial do Python como base
-FROM python:3.9-slim
+FROM python:3.12-slim
 
 # Defina o diretório de trabalho no container
 WORKDIR /app
@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Defina o comando para rodar a aplicação
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
