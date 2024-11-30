@@ -14,7 +14,7 @@ class JsonDB(BaseModel):
 
 
     def insert(self, product: Product):
-        data.self.read()
+        data = self.read()
         data['products'].append(product.dict())
         f = open(self.path, 'w')
         f.write(json.dumps(data))
