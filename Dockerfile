@@ -13,5 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copie o código da aplicação
 COPY . .
 
+# Exponha a porta 80 para que o contêiner seja acessível externamente
+EXPOSE 80
+
 # Defina o comando para rodar a aplicação
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
