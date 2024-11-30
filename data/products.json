@@ -1,1 +1,24 @@
-{"products": [{"name": "Notebook", "price": 1900.0}, {"name": "Tv", "price": 1300.0}, {"name": "Som", "price": 600.0}, {"name": "Apirador", "price": 200.0}, {"name": "iphone", "price": 43423.0}]}
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Notebook",
+            "price": 1900.0
+        },
+        {
+            "id": 2,
+            "name": "Tv",
+            "price": 1300.0
+        },
+        {
+            "id": 3,
+            "name": "Som",
+            "price": 600.0
+        },
+        {
+            "id": 4,
+            "name": "aspirador",
+            "price": 250.0
+        }
+    ]
+}
