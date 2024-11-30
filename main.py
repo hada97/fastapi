@@ -13,8 +13,8 @@ def get_products():
 
 @app.post("/products")
 def created_products(product: Product):
-
-    print("New Product", product)
-
-    return {"status" : inserted}
-
+    # Adicionando o produto à lista (simulando inserção no banco de dados)
+    #products.append(product)
+    print("New Product:", product)
+    # Retornando o status de sucesso
+    return {"status": "Product inserted successfully", "product": product}
