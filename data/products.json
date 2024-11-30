@@ -1,0 +1,8 @@
+{
+  "products": [
+    { "name": "Notebook", "price": 1900.0 },
+    { "name": "Tv", "price": 1300.0 },
+    { "name": "Som", "price": 600.0 },
+    { "name": "Apirador", "price": 200.0 }
+  ]
+}
